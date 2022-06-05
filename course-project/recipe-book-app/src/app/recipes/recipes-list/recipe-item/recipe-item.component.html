@@ -1,0 +1,17 @@
+<a
+[routerLink]="[ id]"
+routerLinkActive="active"
+style="cursor: pointer;"
+class="list-group-item clearfix d-flex align-items-center "
+
+>
+<div class="pull-left">
+    <h4 class="list-group-item-heading">{{singleitem.name}}</h4>
+    <p class="list-group-item-text ">{{singleitem.description}}</p>
+
+</div>
+<span class="ps-3">
+    <img [src]="singleitem.imagepath" alt="{{singleitem.name}}" class="img-fluid" >
+</span>
+</a>
+<!--style="max-height:50px;"-->
